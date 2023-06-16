@@ -5,10 +5,11 @@
   <script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
   <script type="text/babel">
     const element = (
+      // <> is equal to <React.Fragment> and is used to place HTML elements side-by-side
       <>
         <span>Hello</span> <span>World</span>
       </>
-    )
-    ReactDOM.render(element, document.getElementById('root'))
+    );
+    ReactDOM.render(element, document.getElementById("root"));
   </script>
 </body>
